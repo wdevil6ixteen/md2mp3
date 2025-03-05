@@ -33,8 +33,8 @@ class MarkdownSpeaker:
         self.text_queue = queue.Queue()  
 
        
-        self.engine.setProperty('rate', 130)  
-        self.engine.setProperty('pitch', 70)  
+        # self.engine.setProperty('rate', 130)  
+        # self.engine.setProperty('pitch', 70)  
 
     def on_drop(self, event):
         file_path = event.data.strip("{}")
