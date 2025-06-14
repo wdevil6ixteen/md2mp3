@@ -1,2 +1,6 @@
-gTTS
+markdown
+pyttsx3
+beautifulsoup4
+langdetect
 tkinterdnd2
+pydub
